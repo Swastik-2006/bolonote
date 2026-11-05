@@ -1,1 +1,1 @@
-bolonote.ai.studio
+Use it through this link: bolonote.ai.studio
