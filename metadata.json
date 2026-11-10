@@ -1,0 +1,6 @@
+{
+  "name": "BoloNote",
+  "description": "Speak naturally. Your words become notes. Mobile-first Indian multilingual voice notes app.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

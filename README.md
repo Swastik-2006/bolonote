@@ -1,45 +1,20 @@
-# BoloNote 🎙️
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-**Speak naturally. Your words become notes.**
+# Run and deploy your AI Studio app
 
-BoloNote is a multilingual voice notes web application that converts spoken words into editable text using Gnani AI's speech technology.
+This contains everything you need to run your app locally.
 
-🌐 **Live App:** https://bolonote.ai.studio
+View your app in AI Studio: https://ai.studio/apps/25665bba-9bc7-4354-9c4b-ad97fabbf495
 
-## ✨ Features
+## Run Locally
 
-- 🎤 Voice recording and speech-to-text transcription.
-- 🌍 Multilingual interface supporting 10 languages.
-- 📝 Edit, save and manage voice notes.
-- 🔊 Text-to-speech playback using Gnani AI Timbre.
-- 📄 Export notes as TXT files.
+**Prerequisites:**  Node.js
 
-## 🛠️ Technology Used
 
-- **Google AI Studio & Gemini** – AI-assisted application development.
-- **Gnani AI Prisma v3.0** – Speech-to-text.
-- **Gnani AI Timbre** – Text-to-speech.
-- Web technologies – Application interface and functionality.
-
-## 🤖 Development Approach
-
-BoloNote was developed through an AI-assisted workflow using Google AI Studio and Gemini.
-
-The project involved idea development, feature planning, UI direction, prompt engineering, API integration, testing, debugging and refinement.
-
-## 🎯 Purpose
-
-BoloNote aims to make capturing thoughts, creating notes and accessing spoken information easier for students, learners and professionals.
-
-## 👨‍💻 Developer
-
-**Swastik Kundu**
-
-B.Tech Computer Science & Engineering  
-Mallabhum Institute of Technology
-
-Built for the **Great Indian AI Internship Challenge 2026 by Gnani.ai**.
-
----
-
-*This project uses Gnani AI voice models for speech processing.*
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
